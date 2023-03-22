@@ -7,14 +7,14 @@
 
 int main(void)
 {
-	int a = 0;
-	int b = 1;
-	int sum;
+	unsigned long int a = 1;
+	unsigned long int b = 2;
+	unsigned long int sum;
 	int i;
 
 	for (i = 1 ; i <= 50 ; i++)
 	{
-		printf("%d", a);
+		printf("%ld", a);
 		sum = a + b;
 		a = b;
 		b = sum;
