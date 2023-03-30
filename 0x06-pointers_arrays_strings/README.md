@@ -20,4 +20,6 @@ There are a total of 13 Tasks:
 
 *5. Always look up* converts lowercase to uppercase
 
+*6. Expect the best. Prepare for the worst. Capitalize on what comes* capitalises every word in a string
+
 
