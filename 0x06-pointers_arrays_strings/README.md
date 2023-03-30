@@ -28,4 +28,9 @@ There are a total of 13 Tasks:
 
 *9. Numbers have life; they're not just symbols on paper* prints integers
 
+*10. A dream doesn't become reality through magic; it takes sweat, determination and hard work* changes the value of the element of a string
+
+*11. It is the addition of strangeness to beauty that constitutes the romantic character in art* adds two numbers
+
+*12. Noise is a buffer, more effective than cubicles or booth walls* prints a buffer
 
