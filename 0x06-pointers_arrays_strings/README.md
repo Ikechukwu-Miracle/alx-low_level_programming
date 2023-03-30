@@ -26,4 +26,6 @@ There are a total of 13 Tasks:
 
 *8. rot13* encodes a string with the ROT13
 
+*9. Numbers have life; they're not just symbols on paper* prints integers
+
 
