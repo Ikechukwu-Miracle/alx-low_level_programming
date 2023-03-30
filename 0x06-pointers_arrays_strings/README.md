@@ -24,4 +24,6 @@ There are a total of 13 Tasks:
 
 *7. Mozart composed his music not for the elite, but for everybody* encodes strings into 1337 (leet)
 
+*8. rot13* encodes a string with the ROT13
+
 
