@@ -22,4 +22,6 @@ There are a total of 13 Tasks:
 
 *6. Expect the best. Prepare for the worst. Capitalize on what comes* capitalises every word in a string
 
+*7. Mozart composed his music not for the elite, but for everybody* encodes strings into 1337 (leet)
+
 
