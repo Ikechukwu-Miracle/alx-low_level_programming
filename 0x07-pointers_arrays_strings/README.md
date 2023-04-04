@@ -8,4 +8,5 @@ The project is deals with pointers to pointers, multidimensional arrays and furt
 *4. strpbrk* this searches a string for a set of characters
 *5. strstr* is a function that locates a substring
 *6. Chess is mental torture* prints the chessboard
+*7. The line of life is a ragged diagonal between duty and desire* prints the two sums of a square matrix
 
