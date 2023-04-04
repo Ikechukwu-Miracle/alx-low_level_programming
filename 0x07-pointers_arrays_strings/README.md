@@ -9,4 +9,5 @@ The project is deals with pointers to pointers, multidimensional arrays and furt
 *5. strstr* is a function that locates a substring
 *6. Chess is mental torture* prints the chessboard
 *7. The line of life is a ragged diagonal between duty and desire* prints the two sums of a square matrix
+*8. Double pointer, double fun* sets a pointer to a string
 
