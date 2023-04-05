@@ -10,4 +10,5 @@ There are a total of 9 tasks: 7 mandatory and 2 advanced
 *4. Once an idea has taken hold of the brain it's almost impossible to eradicate* prints the value of a number x to the power of y.
 *5. Your subconscious is looking for the dreamer* prints the natural square root of a number.
 *6. Inception. Is it possible?* tells if an integer is a prime number.
+*7. They say we only use a fraction of our brain's true potential. Now that's when we're awake. When we're asleep, we can do almost anything* checks if a string is a palindrome.
 
