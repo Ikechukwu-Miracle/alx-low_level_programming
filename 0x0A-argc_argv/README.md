@@ -6,3 +6,4 @@ There are a total of 6 tasks in the project:
 
 *0. It ain't what they call you, it's what you answer to* is a program that prints its name.
 
+*1. Silence is argument carried out by other means* prints the number of arguments.
