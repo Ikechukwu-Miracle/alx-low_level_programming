@@ -10,5 +10,6 @@ There are a total of 6 tasks in the project:
 *3. Neither irony nor sarcasm is argument* multiplies arguments passed to it
 *4. To infinity and beyond* adds and prints the sum of the arguments
 *4. To infinity and beyond* This adds the integer arguments
+*5. Minimal Number of Coins for Change*  prints the minimum number of coins to make change for an amount of money.
 
 
