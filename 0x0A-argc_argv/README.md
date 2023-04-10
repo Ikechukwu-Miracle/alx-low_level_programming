@@ -9,5 +9,6 @@ There are a total of 6 tasks in the project:
 *2. The best argument against democracy is a five-minute conversation with the average voter* prints all arguments passed to it.
 *3. Neither irony nor sarcasm is argument* multiplies arguments passed to it
 *4. To infinity and beyond* adds and prints the sum of the arguments
+*4. To infinity and beyond* This adds the integer arguments
 
 
