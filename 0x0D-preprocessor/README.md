@@ -7,5 +7,6 @@ There is a total of 5 mandatory tasks in the project:
 *1. Pi* is a header that contains a macro PI.
 *2. File name* is a program that prints the name of the file containing it.
 *3. Function-like macro* prints the absolute valume of x.
+*4. SUM* is a header file that contains a macro SUM which adds two numbers.
 
 
