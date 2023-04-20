@@ -4,5 +4,6 @@ The project is on C - Variadic functions i.e. functions that can take a variable
 There are a total of 4 mandatory tasks in this project:
 
 *0. Beauty is variable, ugliness is constant* is a function that adds the parameters passed to it.
+*1. To be is to be the value of a variable* is a function that prints numbers.
 
 
