@@ -5,5 +5,6 @@ There are a total of 4 mandatory tasks in this project:
 
 *0. Beauty is variable, ugliness is constant* is a function that adds the parameters passed to it.
 *1. To be is to be the value of a variable* is a function that prints numbers.
+*2. One woman's constant is another woman's variable* is a function that prints strings.
 
 
