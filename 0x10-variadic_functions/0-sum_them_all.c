@@ -4,7 +4,7 @@
  * sum_them_all - variadic functions that sums its parameters
  * @n: number of variable parameters passed
  *
- * Return: sum of the parameters
+ * Return:0 if n = 0 otherwise sum of the parameters
  */
 
 int sum_them_all(const unsigned int n, ...)
@@ -12,6 +12,9 @@ int sum_them_all(const unsigned int n, ...)
 	unsigned int i; 
 	int result = 0;
 	va_list values;
+
+	if (n == 0)
+		return (0);
 
 	va_start(values, n);
 
