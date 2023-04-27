@@ -2,7 +2,7 @@
 #define LIST_H
 
 /**
- * list_a - linked list type
+ * struct list_a - linked list type
  * @str: string
  * @len: number of nodes
  * @next: pointer to next node
