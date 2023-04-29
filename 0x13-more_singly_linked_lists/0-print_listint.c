@@ -1,7 +1,8 @@
 #include "lists.h"
 #include <stdio.h>
 /**
- * print_lisiint - prints the values of elements in a linked list
+ * print_lisiint - prints the values of
+ * elements in a linked list
  * @h: pointer to the linked list.
  *
  * Return: number of nodes
