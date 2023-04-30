@@ -9,4 +9,5 @@ There are a total of 15 tasks inthis project:
 *2. Add node* adds a new node at the beginning of a list.
 *3. Add node at the end* adds a new node at the end of the list.
 *4. Free list* frees a linked list.
+*5. Free* frees linked list and sets head to NULL.
 
