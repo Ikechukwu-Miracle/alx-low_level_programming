@@ -12,4 +12,5 @@ There are a total of 15 tasks inthis project:
 *5. Free* frees linked list and sets head to NULL.
 *7. Get node at index* returns pointer to node at given index.
 *8. Sum list* returns the sum of all the integer data of the list.
+*9. Insert* inserts a new node at a given index.
 
