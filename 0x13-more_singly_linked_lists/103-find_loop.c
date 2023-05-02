@@ -7,7 +7,7 @@
  */
 listint_t *find_listint_loop(listint_t *head)
 {
-	listint_t *fastNode, slowNode;
+	listint_t *fastNode, *slowNode;
 
 	fastNode = head;
 	slowNode = head;
