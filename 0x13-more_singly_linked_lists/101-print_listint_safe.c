@@ -1,5 +1,5 @@
 #include "lists.h"
-
+size_t length_looped(const listint_t *head);
 /**
  * length_looped - returns number of nodes
  * in a looped link

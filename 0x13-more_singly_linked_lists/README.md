@@ -16,4 +16,6 @@ There are a total of 15 tasks inthis project:
 *10. Delete at index* deletes a node at a given index.
 *11. Reverse list* reverses a linked list.
 *12. Print (safe version)* prints a linked list wth a loop.
+*13. Free (safe version)* frees a looped linked list safely.
+*14. Find the loop* finds a loop in a linked list and points to the start of the loop.
 
