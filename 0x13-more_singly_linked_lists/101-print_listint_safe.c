@@ -13,7 +13,7 @@ size_t length_looped(const listint_t *head)
 	size_t nodes = 1;
 
 	if (head == NULL || head->next == NULL)
-		return (0);
+		exit (98);
 
 	slowNode = head->next;
 	fastNode = head->next->next;
