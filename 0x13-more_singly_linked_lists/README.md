@@ -14,4 +14,6 @@ There are a total of 15 tasks inthis project:
 *8. Sum list* returns the sum of all the integer data of the list.
 *9. Insert* inserts a new node at a given index.
 *10. Delete at index* deletes a node at a given index.
+*11. Reverse list* reverses a linked list.
+*12. Print (safe version)* prints a linked list wth a loop.
 
