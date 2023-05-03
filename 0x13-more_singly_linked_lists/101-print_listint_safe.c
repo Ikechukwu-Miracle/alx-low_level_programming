@@ -1,78 +1,50 @@
 #include "lists.h"
-size_t length_looped(const listint_t *head);
+
 /**
- * length_looped - returns number of nodes
- * in a looped link
+ * print_listint_safe - prints a singly linked list safely
  * @head: pointer to linked list
- *
- * Return: number of nodes if looped
- */
-size_t length_looped(const listint_t *head)
-{
-	const listint_t *slowNode, *fastNode;
-	size_t nodes = 1;
-
-	if (head == NULL || head->next == NULL)
-		exit (98);
-
-	slowNode = head->next;
-	fastNode = head->next->next;
-
-	while (fastNode)
-	{
-		if (slowNode == fastNode)
-		{
-			slowNode = head;
-			while (slowNode != fastNode)
-			{
-				nodes++;
-				slowNode = slowNode->next;
-				fastNode = fastNode->next;
-			}
-
-			slowNode = slowNode->next;
-			while (slowNode != fastNode)
-			{
-				nodes++;
-				slowNode = slowNode->next;
-			}
-			return (nodes);
-		}
-
-		slowNode = slowNode->next;
-		fastNode = fastNode->next->next;
-	}
-
-	return (0);
-}
-
-/**
- * print_listint_safe - Prints a listint_t list with loop
- * @head: pointer to the linked list
  *
  * Return: number of nodes in the list
  */
 size_t print_listint_safe(const listint_t *head)
 {
-	size_t n = length_looped(head);
-	size_t i;
+	const listint_t *slowNode, *fastNode, *entrNode;
+	size_t nodes = 1;
+	int looped = 0;
 
-	if (n == 0)
+	if (!head)
+		exit(98);
+
+	slowNode = head;
+	fastNode = head;
+
+	while (slowNode != NULL)
 	{
-		for (; head != NULL ; n++)
+		printf("[%p] %d\n", (void *)slowNode, slowNode->n);
+		nodes++;
+		slowNode = slowNode->next;
+		if (fastNode != NULL && fastNode->next != NULL)
 		{
-			printf("[%p] %d\n", (void *)head, head->n);
-			head = head->next;
+			fastNode = fastNode->next->next;
+			if (slowNode == fastNode)
+			{
+				looped = 1;
+				break;
+			}
 		}
+
 	}
-	else
+	if (looped == 1)
 	{
-		for (i = 0  ; i < n ; i++)
+		entrNode = head;
+		while (slowNode != entrNode)
 		{
-			printf("[%p] %d\n", (void *)head, head->n);
-			head = head->next;
+			printf("[%p] %d\n", (void *)slowNode, slowNode->n);
+			nodes++;
+			slowNode = slowNode->next;
+			entrNode = entrNode->next;
 		}
-		printf("-> [%p] %d\n", (void *)head, head->n);
+		printf("-> [%p] %d\n", (void *)entrNode, entrNode->n);
 	}
-	return (n);
+	return (nodes);
 }
