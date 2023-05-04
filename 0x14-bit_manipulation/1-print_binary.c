@@ -11,7 +11,7 @@ void print_binary(unsigned long int n)
 	unsigned int currNum;
 	int x, bin_count = 0;
 
-	x = 32;
+	x = 63;
 	while (x >= 0)
 	{
 		currNum = n >> x;
