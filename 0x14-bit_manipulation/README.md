@@ -7,5 +7,6 @@ There are a total of 8 tasks in this project:
 *0. 0* converts binary numbers to decimal values.
 *1. 1* prints decimal numbers as binary.
 *2. 10* returns the value of the bit at a given index in a decimal number.
+*3. 11* sets the bit value at a particular index to 1.
 
 
