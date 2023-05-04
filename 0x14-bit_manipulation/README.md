@@ -10,5 +10,6 @@ There are a total of 8 tasks in this project:
 *3. 11* sets the bit value at a particular index to 1.
 *4. 100* sets bit value at index to 0.
 *5. 101* counts the number of times to change or flip bits to get from one number or another.
+*6. Endianness* checks endianness of  a machine.
 
 
