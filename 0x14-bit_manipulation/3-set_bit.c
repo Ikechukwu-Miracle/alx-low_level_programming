@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * set_bit - sets the bit value at a particular index
  * to 1 in a decimal number
