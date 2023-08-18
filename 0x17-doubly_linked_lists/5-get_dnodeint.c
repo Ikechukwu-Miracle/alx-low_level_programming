@@ -3,7 +3,7 @@
 /**
  * get_dnodeint_at_index - gets a node at n position
  * @head: pointer to the first element of the list
- * @index: position of the specific node 
+ * @index: position of the specific node
  *
  * Return: pointer to node at position index
  */
