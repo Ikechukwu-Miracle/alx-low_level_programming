@@ -18,7 +18,7 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	n = ht->size;
 	id = key_index((const unsigned char *)key, n);
 	if (id > (n - 1))
-		return NULL;
+		return (NULL);
 
 	new = ht->array[id];
 	while (new)
